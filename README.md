@@ -22,7 +22,6 @@ Installation:
 2. Install Git, - $sudo apt-get install git-all
 3. Pull git repo into any directory, - $git remote add demo https://github.com/gregsavvy/Telegram_bot_py.git), then $git pull demo
 4. From main directory, - $sudo docker build -t telegrambotpy .
-*don't forget the dots above.
 
 Run:
 1. $sudo docker run telegrambotpy
