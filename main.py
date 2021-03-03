@@ -31,7 +31,7 @@ def button(update: Update, context: CallbackContext) -> None:
     query.answer()
 
     if query.data == 'help_pattern':
-        query.edit_message_text(text='I know a lot of movies, type some quotes from your favorite movies!')
+        query.edit_message_text(text='I know a lot of movies, type something and I will try to answer with some movie quotes!')
 
     elif query.data == 'movie_pattern':
         query.edit_message_text(text='Hmmmm...\n1. The Thing.\n2. Alien\n3. Lord of the Rings\n4. The Matrix\n5. Snatch\n6. Shawshank Redemption\n7. Forrest Gump\n8. The Green Mile\n9. Gladiator\n10. Schindlers List')
