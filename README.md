@@ -9,7 +9,7 @@ Option 1 - Clean Python interpreter (Linux):
 
 Installation:
 1. $sudo apt-get install python3 python3-pip git-all
-2. Pull git repo into any directory, - $git remote add demo https://github.com/gregsavvy/Telegram_bot_py.git), then $git pull demo
+2. Pull git repo into any directory, - $git clone https://github.com/gregsavvy/Telegram_bot_py.git)
 3. From main directory, - $pip3 install --no-cache-dir -r requirements.txt
 
 Run:
@@ -20,7 +20,7 @@ Option 2 - Docker (Linux):
 Installation:
 1. Install Docker, - $sudo apt-get install docker-ce docker-ce-cli containerd.io
 2. Install Git, - $sudo apt-get install git-all
-3. Pull git repo into any directory, - $git remote add demo https://github.com/gregsavvy/Telegram_bot_py.git), then $git pull demo
+3. Pull git repo into any directory, - $git clone https://github.com/gregsavvy/Telegram_bot_py.git)
 4. From main directory, - $sudo docker build -t telegrambotpy .
 
 Run:
