@@ -14,6 +14,7 @@ Installation:
 
 Run:
 1. From main directory, - $python3 main.py
+2. Now you can find the bot in telegram, - @movie_ref_bot
 
 Option 2 - Docker (Linux):
 
