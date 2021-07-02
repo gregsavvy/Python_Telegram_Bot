@@ -26,3 +26,4 @@ Installation:
 
 Run:
 1. $sudo docker run telegrambotpy
+2. Now you can find the bot in telegram, - @movie_ref_bot
